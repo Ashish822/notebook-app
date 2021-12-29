@@ -5,6 +5,7 @@ const yargs = require("yargs");
 const notes = require("./notes");
 const { describe } = require("yargs");
 
+console.log("hurray");
 yargs.command({
   command: "add",
   describe: "Adding a new note",
